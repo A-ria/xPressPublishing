@@ -15,11 +15,6 @@ app.use(cors());
 app.use(errorHandler());
 app.use('/api', apiRouter);
 
-
-
-
-
-
 app.listen(PORT, () => {
     console.log('Listening on port: ' + PORT);
 });
